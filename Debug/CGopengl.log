@@ -1,0 +1,43 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Application.obj : error LNK2019: unresolved external symbol _gladLoadGLLoader referenced in function _main
+Application.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Application.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Application.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Application.obj : error LNK2019: unresolved external symbol "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) referenced in function "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Application.obj : error LNK2019: unresolved external symbol _aiGetMaterialTextureCount referenced in function "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+Application.obj : error LNK2019: unresolved external symbol _aiGetMaterialTexture referenced in function "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+Application.obj : error LNK2001: unresolved external symbol _glad_glTexParameteri
+Application.obj : error LNK2001: unresolved external symbol _glad_glTexImage2D
+Application.obj : error LNK2001: unresolved external symbol _glad_glClear
+Application.obj : error LNK2001: unresolved external symbol _glad_glClearColor
+Application.obj : error LNK2001: unresolved external symbol _glad_glEnable
+Application.obj : error LNK2001: unresolved external symbol _glad_glViewport
+Application.obj : error LNK2001: unresolved external symbol _glad_glDrawElements
+Application.obj : error LNK2001: unresolved external symbol _glad_glBindTexture
+Application.obj : error LNK2001: unresolved external symbol _glad_glGenTextures
+Application.obj : error LNK2001: unresolved external symbol _glad_glActiveTexture
+Application.obj : error LNK2001: unresolved external symbol _glad_glBindBuffer
+Application.obj : error LNK2001: unresolved external symbol _glad_glGenBuffers
+Application.obj : error LNK2001: unresolved external symbol _glad_glBufferData
+Application.obj : error LNK2001: unresolved external symbol _glad_glAttachShader
+Application.obj : error LNK2001: unresolved external symbol _glad_glCompileShader
+Application.obj : error LNK2001: unresolved external symbol _glad_glCreateProgram
+Application.obj : error LNK2001: unresolved external symbol _glad_glCreateShader
+Application.obj : error LNK2001: unresolved external symbol _glad_glDeleteShader
+Application.obj : error LNK2001: unresolved external symbol _glad_glEnableVertexAttribArray
+Application.obj : error LNK2001: unresolved external symbol _glad_glGetProgramiv
+Application.obj : error LNK2001: unresolved external symbol _glad_glGetProgramInfoLog
+Application.obj : error LNK2001: unresolved external symbol _glad_glGetShaderiv
+Application.obj : error LNK2001: unresolved external symbol _glad_glGetShaderInfoLog
+Application.obj : error LNK2001: unresolved external symbol _glad_glGetUniformLocation
+Application.obj : error LNK2001: unresolved external symbol _glad_glLinkProgram
+Application.obj : error LNK2001: unresolved external symbol _glad_glShaderSource
+Application.obj : error LNK2001: unresolved external symbol _glad_glUseProgram
+Application.obj : error LNK2001: unresolved external symbol _glad_glUniform1i
+Application.obj : error LNK2001: unresolved external symbol _glad_glUniformMatrix4fv
+Application.obj : error LNK2001: unresolved external symbol _glad_glVertexAttribPointer
+Application.obj : error LNK2001: unresolved external symbol _glad_glGenerateMipmap
+Application.obj : error LNK2001: unresolved external symbol _glad_glBindVertexArray
+Application.obj : error LNK2001: unresolved external symbol _glad_glGenVertexArrays
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\Dependencies\assimp\lib\assimp-vc142-mtd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\Debug\CGopengl.exe : fatal error LNK1120: 40 unresolved externals

@@ -1,0 +1,13 @@
+﻿  Application.cpp
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\shader.h(56,40): warning C4101: 'error': unreferenced local variable
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\mesh.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(177,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(178,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(251,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(252,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(256,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(257,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(259,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(260,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\src\Application.cpp(269,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  CGopengl.vcxproj -> C:\Users\pc\Desktop\5th sem\Computer Graphics\FreshStartOfProject\CGopengl\x64\Debug\CGopengl.exe

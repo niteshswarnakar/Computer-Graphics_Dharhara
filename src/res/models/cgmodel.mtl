@@ -1,0 +1,24 @@
+# Blender MTL File: 'cgmodel.blend'
+# Material Count: 2
+
+newmtl ground
+Ns 225.000000
+Ka 0.547009 0.547009 0.547009
+Kd 0.179786 0.800000 0.240699
+Ks 0.457265 0.457265 0.457265
+Ke 0.000000 0.000000 0.000000
+Ni 16.949999
+d 1.000000
+illum 3
+map_Kd grass.jpg
+
+newmtl model
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd dharharatexture.jpg
